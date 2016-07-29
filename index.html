@@ -37,14 +37,14 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
   <link rel="stylesheet" href="assets/css/fakeLoader.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+ <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="assets/js/fakeLoader.min.js">
 
 </head>
 
 <body>
 	<!-- Preloader -->
-	<div id="fakeLoader"></div>
+	<div class="fakeloader"></div>
 
 	<!-- Home Section -->
 	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
@@ -665,8 +665,8 @@
   <script src="assets/js/jquery.fitvids.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   <script src="assets/js/scripts.js"></script>
-  <script type="text/javascript">
-$("#fakeLoader").fakeLoader();
-</script>
+  <script>
+  $(".fakeloader").fakeLoader();
+  </script>
 </body>
 </html>
